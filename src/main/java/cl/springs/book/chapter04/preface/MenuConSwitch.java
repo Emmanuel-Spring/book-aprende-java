@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class MenuConSwitch {
     public static void main(String[] args) {
-        int opcion;
+ 
+        int option;
         Scanner entrada = new Scanner(System.in);
         double lado;
         double base;
@@ -16,9 +17,9 @@ public class MenuConSwitch {
         System.out.println("2.- Rectángulo");
         System.out.println("3.- Triángulo");
         System.out.println("\n Elija una opción (1 - 3):  ");
-        opcion = entrada.nextInt();
+        option = entrada.nextInt();
 
-        switch (opcion) {
+        switch (option) {
             case 1:
                 System.out.println("\nIntroduzca el lado del cuadrado en cm:    ");
                 lado = entrada.nextDouble();
@@ -43,6 +44,7 @@ public class MenuConSwitch {
 
             default:
                 System.out.println("\nLo siento, la opción elegida no es correcta.");
+ 
         }
     }
 }
