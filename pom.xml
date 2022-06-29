@@ -12,7 +12,8 @@
 	<artifactId>book-aprende-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>book-aprende-java</name>
-	<description>Portafolio Springs.cl</description>
+	<description>Libro Aprende Java con Ejercicios, 2019.
+				Con 917 páginas, completar en 8 días.</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
