@@ -7,6 +7,7 @@ import java.util.Scanner;
          Escribe un programa en que dado un número del 1 a 7 escriba el correspondiente
          nombre del día de la semana.
  */
+
 public class Ejercicio03 {
     public static void main(String[] args) {
         int numeroDia;
@@ -39,6 +40,7 @@ public class Ejercicio03 {
                 break;
             default:
                 System.out.println("Numero fuera de rango");
+
         }
     }
 }
